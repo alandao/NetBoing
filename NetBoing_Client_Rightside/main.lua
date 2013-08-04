@@ -1,7 +1,7 @@
 local socket = require "socket"
 
 -- the address and port of the server
-local address, port = "72.207.38.240", 27105
+local address, port = "72.207.38.240", 27105 -- EDIT THIS TO THE NETBOING_SERVER IP!
 
 local entity -- entity is what we'll be controlling
 local updaterate = 0.1 -- how long to wait, in seconds, before requesting an update
